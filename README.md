@@ -1,4 +1,11 @@
 # Egzamino-isankstine-uzduotis
+### Projekto aprašymas
+Programa „TextAnalyser“ automatiškai analizuoja teksto failus:
+- Skaičiuoja žodžių dažnį.
+- Išrenka nuorodas (URL) ir domenus.
+- Sudaro cross-reference lentelę, kurioje nurodomos žodžių pozicijos tekste.
+Tai naudinga teksto analizei, informacijos surinkimui ir statistikai.
+---
 ### Diegimo instrukcija 
 1. Atsisiųskite visus failus.
 2. Nukopijuokite projekto direktoriją į savo kompiuterį bei sukurkite build direktoriją <br>
@@ -25,6 +32,12 @@
 * Programa jau automatiskai apskaičiuos žodžių dažnį tekste, todėl jums reikia pasirinkti ar papildomai norėsite išrinkti nuorodas, arba sudaryti cross-reference tipo lentelę.
 * Jei nepavyks atidaryti failų - programa jums praneš, kitu atveju matysite tekstą `Programa baige darba.`
 * Rezultatų failai bus sukuriami `build` aplanke.
+---
+### Reikalavimai
+- C++17 palaikymas
+- CMake ≥ 3.10
+- GNU Make arba kitą build sistemą
+- Interneto prieiga (jei norima atnaujinti tlds failą)
 ---
 ### Programa
 #### URL nuorodos 
