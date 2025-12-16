@@ -3,7 +3,7 @@
 1. Atsisiųskite visus failus.
 2. Nukopijuokite projekto direktoriją į savo kompiuterį bei sukurkite build direktoriją <br>
     ```
-   cd folder direktorija
+   cd folder-direktorija
    mkdir build
    cd build
    ```
@@ -26,4 +26,13 @@
 * Jei nepavyks atidaryti failų - programa jums praneš, kitu atveju matysite tekstą `Programa baige darba.`
 * Rezultatų failai bus sukuriami `build` aplanke.
 ---
-
+### Programa
+#### URL nuorodos 
+Išrenkant nuorodas tekste, programa naudoja puslapyje `https://data.iana.org/TLD/tlds-alpha-by-domain.txt` esančius domenus; (Paskutinį kartą atnaujintas 2025 Gruodžio 16 07:07:02 UTC)
+#### Rezultatų failai 
+Visi rezultatai išvedami į skirtingus failus:
+* `zodziai.txt` - visi žodžiai kurie kartojosi daugiau negu 1 kartą, ir jų dažnis
+* `urls.txt` - visos rastos nuorodos
+* `crossref.txt` - cross-reference tipo lentelė, matome žodį ir kuriose eilutėse jis buvo pastebėtas
+#### Skyrybos ženklai 
+Yra sukurta funkcija, kuri išrenkant žodžius panaikina skirybos ženklus, kad jie nebūtų išrinkti kaip atskiri žodžiai, ar kaip žodžio dalis.
