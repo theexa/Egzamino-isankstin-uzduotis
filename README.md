@@ -1,1 +1,1 @@
-# Egzamino-i-ankstin-U-duotis
+# Egzamino-isankstin-uzduotis
